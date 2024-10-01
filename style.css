@@ -1,0 +1,71 @@
+h1{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container{
+  height: 150px;
+  width: 250px;
+  color: black;
+  border: 2px black;
+  background-color: bisque;
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 4px  grey;
+  border-radius: 7px;
+  transition: background-color 0.3s ease;
+}
+.holder{
+  height: 150px;
+  width: 250px;
+  border: 2px black;
+  background-color: bisque;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 4px  grey;
+  border-radius: 7px;
+}
+#newNote{
+  height: min-content;
+  background-color: transparent;
+  border: none;
+  color: rgb(75, 147, 75);
+  position: absolute;
+  font-size: large;
+  cursor: pointer;
+  margin-left: 80%;
+  margin-top: 40%;
+}
+.text{
+  height: 100%;
+  width: 100%;
+  color: black;
+  background-color: transparent;
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  outline: none;
+  resize: none;
+}
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.delete-button:hover {
+    background-color: darkred;
+}
